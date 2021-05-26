@@ -23,6 +23,5 @@ RUN echo OIVAS7572 | sudo -S apt install python3-pip -y
 COPY requirements.txt .
 RUN echo OIVAS7572 | sudo -S python3 -m pip install --no-cache-dir -r requirements.txt
 RUN echo OIVAS7572 | sudo -S chmod +x stockfish-x86_64-modern
-
 #                   Engine is here    ^^^^^^^^^^^^^^^^
 CMD python3 run.py
