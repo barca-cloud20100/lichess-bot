@@ -62,16 +62,16 @@ challenge:                   # Incoming challenges
   max_base: 315360000        # Maximum amount of base time to accept a challenge. the max is 315360000 (10 years)
   min_base: 0                # Minimum amount of base time to accept a challenge
   variants:                  # Chess variants to accept (http://lichess.org/variant)
-#   - standard
-#   - fromPosition
+    - standard
+    - fromPosition
 #   - antichess
-    - atomic
+#   - atomic
     - chess960
-    - crazyhouse
-    - horde
-    - kingOfTheHill
-    - racingKings
-    - threeCheck
+#   - crazyhouse
+#   - horde
+#   - kingOfTheHill
+#   - racingKings
+#   - threeCheck
   time_controls:             # Time controls to accept
     - bullet
     - blitz
